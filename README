@@ -1,0 +1,3 @@
+This repository contains a simple console project which illustrates the following issue which I was researrching last week.  
+
+Basically, if there is a class containing a DateTime, which is represented by an IComparable (which DateTime implements), then this class cannot be biniary serialized then deserialized.
